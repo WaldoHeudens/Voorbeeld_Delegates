@@ -26,22 +26,22 @@ namespace Les_5_2
         {
             if (veelTeLaat > new TimeSpan(7,0,0,0))
             {
-                tbRemedie.Text += "Dat was heel jammer voor "+ student1.ToString() + " maar we steken er geen tijd in. \n";
+                tbRemedie.Text += "Dat was heel jammer voor "+ student1.ToString() + " maar we steken er geen tijd in. \r\n";
             }
             else
             {
-                tbRemedie.Text += "Scheld " + student1.ToString() + " even uit. \n";
+                tbRemedie.Text += "Scheld " + student1.ToString() + " even uit. \r\n";
             }
         }
 
         public void Android(Student s, TimeSpan ookTeLaat)
         {
-            tbRemedie.Text += "Zorg dat David een pint gaat pakken met " + student1.ToString()  + " \n";
+            tbRemedie.Text += "Zorg dat David een pint gaat pakken met " + student1.ToString()  + " \r\n";
         }
 
         public void ProjectIntro(Student s, TimeSpan ookTeLaat)
         {
-            tbRemedie.Text += "Geef " + student1.ToString() + " een pak slaag. \n";
+            tbRemedie.Text += "Geef " + student1.ToString() + " een pak slaag. \r\n";
         }
 
 
