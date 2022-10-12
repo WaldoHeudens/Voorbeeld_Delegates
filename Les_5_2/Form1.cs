@@ -24,14 +24,14 @@ namespace Les_5_2
         // Toegevoegd voor demonstratie event
         public void OnTeLaat(Student s, TimeSpan t)
         {
-            tbRemedie.Text = "Event werd getriggert: \r\n \r\n";
+            tbRemedie.Text = "Event werd getriggerd: \r\n \r\n";
             if (TeLaat != null)
             { TeLaat(s, t); }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            tbRemedie.Text = "De delegate wordt opgeroepen via de knop \n \n";
+            tbRemedie.Text = "De delegate wordt opgeroepen via de knop \r\n \r\n";
             if (mijnDelegates != null)
                 mijnDelegates(student1, new TimeSpan(7,0,0,0));
         }
